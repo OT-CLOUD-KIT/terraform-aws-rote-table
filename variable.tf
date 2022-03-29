@@ -1,6 +1,6 @@
 variable "vpc_id" {}
 
-variable "name" {
+variable "rt_name" {
   description = "Name of Route Table To be created "
   type        = string
 }

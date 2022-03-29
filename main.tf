@@ -7,7 +7,7 @@ resource "aws_route_table" "route_table" {
 
   tags = merge(
     {
-      "Name" = format("%s-rt", var.name)
+      "Name" = format("%s", var.rt_name)
     },
     var.tags,
   )
